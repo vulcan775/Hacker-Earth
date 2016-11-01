@@ -1,0 +1,102 @@
+#1 ToggleString
+
+You have been given a String S consisting of uppercase and lowercase English alphabets. You need to change the case of each alphabet in this String. That is, all the uppercase letters should be converted to lowercase and all the lowercase letters should be converted to uppercase. You need to then print the resultant String to output.
+
+Input Format
+The first and only line of input contains the String S
+
+Output Format
+Print the resultant String on a single line.
+
+Constraints
+ 1 ≤|S|≤100 where |S| denotes the length of string S.
+ 
+#2 PalindromicString
+
+You have been given a String S. You need to find and print whether this string is a palindrome or not. If yes, print "YES" (without quotes), else print "NO" (without quotes).
+
+Input Format
+The first and only line of input contains the String S. The String shall consist of lowercase English alphabets only.
+
+Output Format
+Print the required answer on a single line.
+
+Constraints 1≤|S|≤100
+
+Note: String S consists of lowercase English Alphabets only.
+
+#3 FindProduct
+
+You have been given an array A of size N consisting of positive integers. You need to find and print the product of all the number in this array Modulo 10^9 + 7.
+
+Input Format:
+The first line contains a single integer N denoting the size of the array. The next line contains N space separated integers denoting the elements of the array
+
+Output Format:
+Print a single integer denoting the product of all the elements of the array Modulo 10^9+7.
+
+Constraints:
+
+1≤N≤10^3
+1≤A[i]≤10^3
+
+Explanation
+There are 5 integers to multiply. Let's store the final answer in answer variable. Since 1 is identity value for multiplication, initialize answer as 1.
+So the process goes as follows:
+answer=1
+answer=(answer×1) % (10^9+7)
+answer=(answer×2) % (10^9+7)
+answer=(answer×3) % (10^9+7)
+answer=(answer×4) % (10^9+7)
+answer=(answer×5) % (10^9+7)
+The above process will yield answer as 120
+
+#4 CountDivisors
+
+You have been given 3 integers l, r and k. Find how many numbers between l and r (both inclusive) are divisible by k. You do not need to print these numbers, you just have to find their count.
+Input Format
+The first and only line of input contains 3 space separated integers l, r and k.
+Output Format
+Print the required answer on a single line.
+Constraints
+1≤l≤r≤1000
+1≤k≤1000
+
+#5 RoyAndProfilePicture
+
+Roy wants to change his profile picture on Facebook. Now Facebook has some restriction over the dimension of picture that we can upload.
+Minimum dimension of the picture can be L x L, where L is the length of the side of square.
+Now Roy has N photos of various dimensions.
+Dimension of a photo is denoted as W x H 
+where W - width of the photo and H - Height of the photo
+When any photo is uploaded following events may occur:
+[1] If any of the width or height is less than L, user is prompted to upload another one. Print "UPLOAD ANOTHER" in this case.
+[2] If width and height, both are large enough and 
+(a) if the photo is already square then it is accepted. Print "ACCEPTED" in this case.
+(b) else user is prompted to crop it. Print "CROP IT" in this case.
+(quotes are only for clarification)
+Given L, N, W and H as input, print appropriate text as output.
+Input:
+First line contains L.
+Second line contains N, number of photos.
+Following N lines each contains two space separated integers W and H.
+Output:
+Print appropriate text for each photo in a new line.
+Constraints:
+1 <= L,W,H <= 10000
+1 <= N <= 1000
+
+#6 Factorial
+
+You have been given a positive integer N. You need to find and print the Factorial of this number. The Factorial of a positive integer N refers to the product of all number in the range from 1 to N. You can read more about the factorial of a number here <https://en.wikipedia.org/wiki/Factorial>.
+Input Format:
+The first and only line of the input contains a single integer N denoting the number whose factorial you need to find.
+Output Format
+Output a single line denoting the factorial of the number N.
+Constraints:
+1≤N≤10
+
+
+#7 Life, The Universe, and Everything
+
+Your program is to use the brute-force approach in order to find the Answer to Life, the Universe, and Everything. More precisely... rewrite small numbers from input to output. Stop processing input after reading in the number 42. All numbers at input are integers of one or two digits.
